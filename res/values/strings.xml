@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidKeyStore Demo Step3</string>
+    <string name="hello_world">Hello GDG DevFest Rome 2013!\n</string>
+    <string name="action_settings">Settings</string>
+    <string name="genera_chiavi">Genera Chiavi</string>
+    <string name="firma_label">Firma</string>
+	<string name="verifica_label">Verifica</string>
+    <string name="in_data">Input:</string>
+    <string name="out_data">Output:</string>
+</resources>

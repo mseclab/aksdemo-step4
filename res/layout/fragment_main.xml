@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/buttons_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/generate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/genera_chiavi" />
+
+        <Button
+            android:id="@+id/firma_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/firma_label" />
+
+        <Button
+            android:id="@+id/verifica_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/verifica_label" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inDataText"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/buttons_bar"
+        android:background="@drawable/textview_border"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:text="@string/in_data" />
+
+    <EditText
+        android:id="@+id/outDataText"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/inDataText"
+        android:background="@drawable/textview_border"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:text="@string/out_data" />
+    
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outDataText"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/debugText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+    </ScrollView>
+
+</RelativeLayout>
