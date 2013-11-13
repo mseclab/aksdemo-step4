@@ -27,14 +27,14 @@ public final class R {
     public static final class id {
         public static final int action_settings=0x7f080009;
         public static final int buttons_bar=0x7f080001;
+        public static final int cifra_button=0x7f080003;
         public static final int container=0x7f080000;
         public static final int debugText=0x7f080008;
-        public static final int firma_button=0x7f080003;
+        public static final int decifra_button=0x7f080004;
         public static final int generate_button=0x7f080002;
         public static final int inDataText=0x7f080005;
         public static final int outDataText=0x7f080006;
         public static final int scrollView=0x7f080007;
-        public static final int verifica_button=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -46,12 +46,12 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
-        public static final int firma_label=0x7f050004;
+        public static final int cifra_label=0x7f050004;
+        public static final int decifra_label=0x7f050005;
         public static final int genera_chiavi=0x7f050003;
         public static final int hello_world=0x7f050001;
         public static final int in_data=0x7f050006;
         public static final int out_data=0x7f050007;
-        public static final int verifica_label=0x7f050005;
     }
     public static final class style {
         /** 

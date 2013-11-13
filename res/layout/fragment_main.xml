@@ -25,18 +25,18 @@
             android:text="@string/genera_chiavi" />
 
         <Button
-            android:id="@+id/firma_button"
+            android:id="@+id/cifra_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/firma_label" />
+            android:text="@string/cifra_label" />
 
         <Button
-            android:id="@+id/verifica_button"
+            android:id="@+id/decifra_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/verifica_label" />
+            android:text="@string/decifra_label" />
     </LinearLayout>
 
     <EditText
