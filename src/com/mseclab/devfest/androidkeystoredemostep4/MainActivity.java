@@ -288,7 +288,7 @@ public class MainActivity extends Activity {
 						publishProgress("Algoritmo utilizzato : "
 								+ publickey.getAlgorithm());
 						if (privateKey.getEncoded() == null)
-							publishProgress("Non possibile accedere direttamente alla chiave privata :-(");
+							publishProgress("Impossibile accedere direttamente alla chiave privata :-(");
 
 					} catch (NoSuchAlgorithmException e) {
 						debug(e.toString());
